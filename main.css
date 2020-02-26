@@ -1,0 +1,57 @@
+.calendar {
+  background: #a8a8ff;
+  text-align: center;
+}
+
+.calendar td {
+  height: 32px;
+  width: 32px;
+}
+
+.calendar-head {
+  margin: 4px;
+}
+
+.calendar .calendar-button {
+  outline: none;
+  color: blue;
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.date {
+  color: black;
+  background: #dadaff;
+}
+
+.weekend {
+  color: #ec162b;
+}
+
+.disabled {
+  color: gray;
+}
+
+.today {
+  background: #c1c1ff;
+  color: #0000f1;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.today:after {
+  content: "today";
+  display: block;
+  font-size: 9px;
+  margin: 0px;
+}
+
+.pressed {
+  background: #6a6aff;
+  color: #ffff;
+}
+
+a {
+  display: block;
+}
